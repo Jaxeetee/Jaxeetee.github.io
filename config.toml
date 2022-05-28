@@ -47,6 +47,9 @@ paginate     = 10
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
     name       = "Blog"
-    url        = "https://jaxobesc.hashnode.dev/"
+    url        = "/Posts/"
+  [[menu.main]]
+    name       = "Portfolio"
+    url        = "https://jaxeetee1.itch.io/"
+
