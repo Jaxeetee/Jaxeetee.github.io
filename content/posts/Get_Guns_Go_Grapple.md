@@ -35,7 +35,7 @@ I found 2 ways on doing the grappling mechanic in Unity. 1st way is by using Spr
 
  There are originally 4 weapons in the game. Due to time constraints, I wasn't able to do a lot more complex coding for it. To be able to randomize it, I used the weight random system to be able to get random weapons. The weapon crate is only a one-time use and is subject to change once we finalize things for the future of the game.
 
- ![Weapon Crate](/images/Weapon_Crate.png)
+ ![Weapon Crate](https://github.com/Jaxeetee/Jaxeetee.github.io/blob/main/resources/_gen/images/Weapon_Crate.png)
 
 #### Player Skill
 
