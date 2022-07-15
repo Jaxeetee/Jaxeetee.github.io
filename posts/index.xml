@@ -1,1 +1,21 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hi! I am Jacob Esclamado</title><link>https://Jaxeetee.github.io/posts/</link><description>Recent content in Posts on Hi! I am Jacob Esclamado</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Fri, 15 Jul 2022 15:23:16 +0800</lastBuildDate><atom:link href="https://Jaxeetee.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Grappling</title><link>https://Jaxeetee.github.io/posts/grappling/</link><pubDate>Fri, 15 Jul 2022 15:23:16 +0800</pubDate><guid>https://Jaxeetee.github.io/posts/grappling/</guid><description>I found 2 ways on doing the grappling mechanic in Unity. 1st way is by using Spring Joints and the other way is by manual computation of the swing of the player through player&amp;rsquo;s rigidbody.</description><content type="html">&lt;p>I found 2 ways on doing the grappling mechanic in Unity. 1st way is by using Spring Joints and the other way is by manual computation of the swing of the player through player&amp;rsquo;s rigidbody.&lt;/p></content></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hi! I am Jacob Esclamado</title><link>https://Jaxeetee.github.io/posts/</link><description>Recent content in Posts on Hi! I am Jacob Esclamado</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>&lt;a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0&lt;/a></copyright><lastBuildDate>Fri, 15 Jul 2022 15:23:16 +0800</lastBuildDate><atom:link href="https://Jaxeetee.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Get Guns Go Grapple [Capstone 3]</title><link>https://Jaxeetee.github.io/posts/get_guns_go_grapple/</link><pubDate>Fri, 15 Jul 2022 15:23:16 +0800</pubDate><guid>https://Jaxeetee.github.io/posts/get_guns_go_grapple/</guid><description>My Contributions Player Movement Player Shooting and Reloading Player Grappling Weapon Crate Player Skill Movement Made use of Unity&amp;rsquo;s Physics velocity to move the player to make it easier to compute for the movement due to the grappling&amp;rsquo;s mechanic.
+Shooting and Reloading Simply used Raycast for the shooting mechanic. For the reloading, I tried to use the animation events but it was so buggy since it couldn&amp;rsquo;t be called for some reason so I ended up scratching it and just used Task for the wait time before the player can shoot again.</description><content type="html"><![CDATA[<h2 id="my-contributions">My Contributions</h2>
+<ul>
+<li>Player Movement</li>
+<li>Player Shooting and Reloading</li>
+<li>Player Grappling</li>
+<li>Weapon Crate</li>
+<li>Player Skill</li>
+</ul>
+<h4 id="movement">Movement</h4>
+<p>Made use of Unity&rsquo;s Physics velocity to move the player to make it easier to compute for the movement due to the grappling&rsquo;s mechanic.</p>
+<h4 id="shooting-and-reloading">Shooting and Reloading</h4>
+<p>Simply used Raycast for the shooting mechanic. For the reloading, I tried to use the animation events but it was so buggy since it couldn&rsquo;t be called for some reason so I ended up scratching it and just used Task for the wait time before the player can shoot again.</p>
+<h4 id="grapple">Grapple</h4>
+<p>I found 2 ways on doing the grappling mechanic in Unity. 1st way is by using Spring Joints and the other way is by manual computation of the swing of the player through player&rsquo;s rigidbody position and velocity. I chose to use the latter one for me to be able to understand the Rigidbody any further. I found a <a href="http://shanekim.me/how-to-make-a-3d-grappling-hook.html">github blog</a> regarding this and used it for guidance.</p>
+<h4 id="weapon-crate">Weapon Crate</h4>
+<p>There are originally 4 weapons in the game. Due to time constraints, I wasn&rsquo;t able to do a lot more complex coding for it. To be able to randomize it, I used the weight random system to be able to get random weapons. The weapon crate is only a one-time use and is subject to change once we finalize things for the future of the game.</p>
+<p><img src="/images/Weapon_Crate.png" alt="Weapon Crate"></p>
+<h4 id="player-skill">Player Skill</h4>
+<p>The original plan was to</p>
+]]></content></item></channel></rss>
