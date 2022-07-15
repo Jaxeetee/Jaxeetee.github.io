@@ -39,5 +39,5 @@ I found 2 ways on doing the grappling mechanic in Unity. 1st way is by using Spr
 
 #### Player Skill
 
-The original plan was to 
+The original plan was to have multiple characters but I hadn't made any systems on it due to time constraints
 
