@@ -48,7 +48,7 @@ paginate     = 10
   # And you can even create generic menu
   [[menu.main]]
     name       = "Blog"
-    url        = "/Posts/"
+    url        = "/Posts/Blog.md"
   [[menu.main]]
     name       = "Portfolio"
     url        = "https://jaxeetee1.itch.io/"
