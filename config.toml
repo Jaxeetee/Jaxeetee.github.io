@@ -53,3 +53,7 @@ paginate     = 10
     name       = "Portfolio"
     url        = "https://jaxeetee1.itch.io/"
 
+  [[menu.main]]
+    name       = "Github"
+    url        = "https://github.com/Jaxeetee"  
+
