@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - 3rd Capstone
 ---
 
-hug
+I found 2 ways on doing the grappling mechanic in Unity. 1st way is by using Spring Joints and the other way is by manual computation of the swing of the player through player's rigidbody. 

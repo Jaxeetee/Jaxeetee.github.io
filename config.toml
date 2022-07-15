@@ -50,7 +50,7 @@ paginate     = 10
     name       = "Blog"
     url        = "/posts/"
   [[menu.main]]
-    name       = "Portfolio"
+    name       = "Itch.io"
     url        = "https://jaxeetee1.itch.io/"
 
   [[menu.main]]
