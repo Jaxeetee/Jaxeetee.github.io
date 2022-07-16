@@ -1,7 +1,7 @@
 ---
 title: "Project_Lucid"
 date: 2022-07-16T11:08:09+08:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
